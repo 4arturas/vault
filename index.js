@@ -1,3 +1,5 @@
+// https://codersociety.com/blog/articles/hashicorp-vault-node
+
 const vault = require("node-vault")({
     apiVersion: "v1",
     endpoint: "http://127.0.0.1:8200",
